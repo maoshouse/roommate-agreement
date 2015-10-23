@@ -8,4 +8,8 @@
     <string name="Username">Username</string>
     <string name="SignupBtn">Sign Up</string>
     <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_high_urgent" android:icon="@android:drawable/ic_menu_day"
+            android:title="Urgent" />
+        <item android:id="@+id/nav_medium_urgent" android:icon="@android:drawable/ic_menu_week"
+            android:title="Not So Urgent" />
+        <item android:id="@+id/nav_low_urgent" android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Not Urgent at all" />
+        <item android:id="@+id/nav_show_all" android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="All Tasks" />
+    </group>
+
+</menu>
