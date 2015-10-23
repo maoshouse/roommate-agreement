@@ -6,8 +6,14 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.EditText;
 
 public class Signup extends AppCompatActivity {
+
+    private EditText username;
+    private EditText password;
+    private EditText email;
+    private EditText phoneNum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +21,11 @@ public class Signup extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        username = (EditText) findViewById(R.id.editText);
+        password = (EditText) findViewById(R.id.editText2);
+        email = (EditText) findViewById(R.id.editText3);
+        phoneNum = (EditText) findViewById(R.id.editText4);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
